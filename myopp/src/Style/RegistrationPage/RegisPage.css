@@ -1,0 +1,50 @@
+
+.container {
+  max-width: 400px;
+  margin-top: 45px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(to top, rgb(239, 162, 249), white);
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 25px;
+}
+
+input{
+  background: #fff;
+  color: black;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, white, rgb(20, 213, 252), white);
+  color: black;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #297fb8; /* Change color on hover if desired */
+}
+
+/* Styles for the login forms (StudLogForm and TeachLogForm) can be added here */

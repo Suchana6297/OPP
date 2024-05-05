@@ -1,0 +1,81 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli, sans-serif";
+  color-scheme: light dark;
+}
+
+:root{
+  --bg-color: #f4f3ff ;
+  --btn-color: #646cff ;
+  --dark-color: #242424 ;
+  --helper-color: #99b9ff ;
+}
+
+.navbar{
+  background-color: rgb(13, 175, 249) !important;
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #fcfbff;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.logo {
+  color: rgb(235, 97, 34);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.welcome-message {
+  color: rgb(237, 240, 241);
+  font-size: 1rem;
+}
+
+.menu-active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+  color: #3498db !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+
+  .menu-active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+button{
+  text-transform: capitalize;
+  padding: 1rem 2.2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  background-color: var(--btn-color);
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  border: 0.1rem solid transparent;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  transition: border-color 0.3s;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  -ms-transition: border-color 0.3s;
+  -o-transition: border-color 0.3s;
+}
