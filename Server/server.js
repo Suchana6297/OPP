@@ -16,7 +16,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-mongoose.connect('mongodb://localhost:27017/myopp', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://127.0.0.1:27017/myopp', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Fetch user data by email (GET endpoint)
 app.get('/user/:email', async (req, res) => {

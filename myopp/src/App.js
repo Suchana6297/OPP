@@ -8,7 +8,6 @@ import HomePage from "./pages/Home";
 import StudentDashboard from "./pages/Dashboard/Student/StudDashb";
 import TeacherDashboard from "./pages/Dashboard/Teacher/TeachDashb";
 import CodeEditor from "./pages/Dashboard/Student/CodeEditor";
-import ComitiveExam from "./pages/Dashboard/Student/ComitiveExam";
 
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
         <Route path="/teacher-dashboard"element={<TeacherDashboard />}></Route>
         <Route path="/student-dashboard"element={<StudentDashboard />}></Route>
         <Route path="/CodeEditor" element={<CodeEditor />}></Route>
-        <Route path="/Compitive-exam" element={<ComitiveExam />}></Route>
+        
         </Routes>
       </div>
     </Router>
